@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd" > <!-- 이 사이트 참조 -->
+
+<mapper namespace="icia.kotlin.spring2.MapperInterface">
+<select id="getDate2" resultType="String">
+	SELECT SYSDATE FROM DUAL
+</select>
+</mapper>
